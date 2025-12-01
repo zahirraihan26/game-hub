@@ -1,0 +1,155 @@
+[
+  {
+    "id": "1",
+    "title": "PUBG Mobile",
+    "coverPhoto": "https://cdn.cloudflare.steamstatic.com/steam/apps/578080/header.jpg",
+    "category": "Battle Royale",
+    "downloadLink": "https://www.pubgmobile.com/",
+    "description": "PUBG Mobile is a battle royale shooter where 100 players parachute onto an island and fight to be the last one standing.",
+    "ratings": "4.5",
+    "developer": "Krafton",
+    "languages": ["English", "Chinese", "Spanish"]
+  },
+  {
+    "id": "2",
+    "title": "Call of Duty: Mobile",
+    "coverPhoto": "https://play-lh.googleusercontent.com/GBaWlaevq4CA0xN13QYlIseEmL2inzVEx9z3HBBJPNbIQmlZLgA9lj-pfbY4h3XVa5Xvuns3ORaWSEvk8IbSDyQ",
+    "category": "Shooter",
+    "downloadLink": "https://www.callofduty.com/mobile",
+    "description": "Call of Duty: Mobile brings the iconic FPS experience to mobile with battle royale and classic multiplayer modes.",
+    "ratings": "4.7",
+    "developer": "Activision"
+  },
+  {
+    "id": "3",
+    "title": "Genshin Impact",
+    "coverPhoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREfIeSpOlyavspRhx04_rXnkvh6ldCLcuHcg&s",
+    "category": "RPG",
+    "downloadLink": "https://genshin.hoyoverse.com/",
+    "description": "An open-world action RPG with elemental combat and an immersive story set in the land of Teyvat.",
+    "ratings": "4.8",
+    "developer": "HoYoverse"
+  },
+  {
+    "id": "4",
+    "title": "Valorant",
+    "coverPhoto": "https://cdn.pixabay.com/photo/2023/06/10/18/13/valorant-8054617_1280.jpg",
+    "category": "Tactical Shooter",
+    "downloadLink": "https://playvalorant.com/",
+    "description": "Valorant combines precise gunplay with unique agent abilities for a tactical 5v5 experience.",
+    "ratings": "4.6",
+    "developer": "Riot Games"
+  },
+  {
+    "id": "5",
+    "title": "Minecraft",
+    "coverPhoto": "https://wallpapers.com/images/featured/minecraft-background-cfljc4haleghnajo.jpg",
+    "category": "Sandbox",
+    "downloadLink": "https://www.minecraft.net/",
+    "description": "Minecraft lets players build and explore infinite blocky worlds, create tools, and survive adventures.",
+    "ratings": "4.9",
+    "developer": "Mojang Studios"
+  },
+  {
+    "id": "6",
+    "title": "Among Us",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/9/9a/Among_Us_cover_art.jpg",
+    "category": "Party",
+    "downloadLink": "https://innersloth.com/gameAmongUs.php",
+    "description": "Among Us is a fun social deduction game where crewmates must find the impostors among them.",
+    "ratings": "4.3",
+    "developer": "Innersloth"
+  },
+  {
+    "id": "7",
+    "title": "Apex Legends",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/d/db/Apex_legends_cover.jpg",
+    "category": "Battle Royale",
+    "downloadLink": "https://www.ea.com/games/apex-legends",
+    "description": "Apex Legends is a squad-based hero shooter featuring unique characters and fast-paced combat.",
+    "ratings": "4.4",
+    "developer": "Respawn Entertainment"
+  },
+  {
+    "id": "8",
+    "title": "Clash of Clans",
+    "coverPhoto": "https://wallpapercat.com/w/full/c/0/5/283375-3840x2160-desktop-4k-clash-of-clans-background.jpg",
+    "category": "Strategy",
+    "downloadLink": "https://supercell.com/en/games/clashofclans/",
+    "description": "Build your village, train troops, and compete with players worldwide in this top strategy game.",
+    "ratings": "4.7",
+    "developer": "Supercell"
+  },
+  {
+    "id": "9",
+    "title": "Fortnite",
+    "coverPhoto": "https://cdn.mos.cms.futurecdn.net/6bWPyZoJZBhaeKfjmGTu5U.jpg",
+    "category": "Battle Royale",
+    "downloadLink": "https://www.epicgames.com/fortnite/en-US/home",
+    "description": "Fortnite is a free-to-play battle royale game featuring building mechanics and creative modes.",
+    "ratings": "4.6",
+    "developer": "Epic Games"
+  },
+  {
+    "id": "10",
+    "title": "League of Legends",
+    "coverPhoto": "https://png.pngtree.com/thumb_back/fh260/background/20230614/pngtree-how-to-the-paladin-in-league-of-legends-image_2879705.jpg",
+    "category": "MOBA",
+    "downloadLink": "https://www.leagueoflegends.com/",
+    "description": "League of Legends is a competitive online MOBA where players team up to destroy the enemy nexus.",
+    "ratings": "4.5",
+    "developer": "Riot Games"
+  },
+  {
+    "id": "11",
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "coverPhoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjYLoYERymCvKtHd8BzV5xK7PFpJCVcmceVA&s",
+    "category": "Adventure",
+    "downloadLink": "https://www.zelda.com/breath-of-the-wild/",
+    "description": "Explore the vast world of Hyrule, solve puzzles, and battle enemies in this open-world adventure masterpiece.",
+    "ratings": "4.9",
+    "developer": "Nintendo"
+  },
+  {
+    "id": "12",
+    "title": "Red Dead Redemption 2",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg",
+    "category": "Action",
+    "downloadLink": "https://www.rockstargames.com/reddeadredemption2",
+    "description": "An epic tale of life in America’s unforgiving heartland featuring stunning graphics and storytelling.",
+    "ratings": "4.8",
+    "developer": "Rockstar Games"
+  },
+  {
+    "id": "13",
+    "title": "God of War: Ragnarok",
+    "coverPhoto": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322010/header.jpg?t=1750909504",
+    "category": "Action Adventure",
+    "downloadLink": "https://www.playstation.com/en-us/games/god-of-war-ragnarok/",
+    "description": "Kratos and Atreus embark on a journey across the Norse realms as they face gods and destiny itself.",
+    "ratings": "4.9",
+    "developer": "Santa Monica Studio"
+  },
+  {
+    "id": "14",
+    "title": "FIFA 24",
+    "coverPhoto": "https://www.shutterstock.com/image-photo/man-playing-ea-fc-24-260nw-2337725385.jpg",
+    "category": "Sports",
+    "downloadLink": "https://www.ea.com/games/ea-sports-fc/fc-24",
+    "description": "EA Sports FC 24 brings the most authentic football experience with real teams, stadiums, and leagues.",
+    "ratings": "4.4",
+    "developer": "EA Sports"
+  },
+  {
+    "id": "15",
+    "title": "Cyberpunk 2077",
+    "coverPhoto": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg",
+    "category": "Open World RPG",
+    "downloadLink": "https://www.cyberpunk.net/",
+    "description": "An open-world action RPG set in the futuristic Night City, full of choices, combat, and deep storytelling.",
+    "ratings": "4.2",
+    "developer": "CD Projekt Red"
+  }
+]
+
+

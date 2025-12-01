@@ -68,12 +68,23 @@ const Navbar = () => {
             Newsletter
           </Link>
           <Link
+            to="/gamehub"
+            className="hover:text-orange-400 font-medium mb-3 md:mb-0"
+            onClick={() => setIsOpen(false)}
+          >
+            Gamehub+
+          </Link>
+          {
+            user && (
+              <Link
             to="/myprofile"
             className="hover:text-orange-400 font-medium mb-3 md:mb-0"
             onClick={() => setIsOpen(false)}
           >
             My Profile
           </Link>
+            )
+          }
           <Link
             to="/developers"
             className="hover:text-green-400 font-medium mb-3 md:mb-0"

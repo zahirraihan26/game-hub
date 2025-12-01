@@ -17,6 +17,9 @@ import Developers from "../Componet/Developers";
 import ForgetPassword from "../Pages/ForgetPassword";
 import Myprofilelogin from "../Pages/Myprofilelogin";
 import Loading from "../Pages/Loading";
+import AllGames from "../Pages/AllGames";
+import Gamehub from "../Pages/Gamehub";
+import Gamehubadd from "../Pages/Gamehubadd";
 
 
 
@@ -31,14 +34,12 @@ const router = createBrowserRouter(
                     index: true,
                     element: <Home />
                 },
-                {
-                    path: '/games',
-                    element: <Games></Games>
-                },
-
-
 
             ]
+        },
+        {
+            path: '/games',
+            element: <AllGames></AllGames>
         },
         {
             path: '/developers',
@@ -46,7 +47,11 @@ const router = createBrowserRouter(
         },
         {
             path: '/myprofile',
-            element: <Myprofile></Myprofile>,
+            element: (
+                <Privetrout>
+                    <Myprofile></Myprofile>
+                </Privetrout>
+            ),
 
         },
         {
@@ -59,6 +64,10 @@ const router = createBrowserRouter(
             path: '/newsletter',
             element: <NewsLeter></NewsLeter>
 
+        },
+        {
+            path: '/gamehub',
+            element:<Gamehubadd></Gamehubadd>
         },
 
         {
@@ -79,11 +88,7 @@ const router = createBrowserRouter(
         },
         {
             path: "/game/details/:id",
-            element: (
-                <Privetrout>
-                    <Gamedetails></Gamedetails>
-                </Privetrout>
-            ),
+            element: <Gamedetails></Gamedetails>,
             loader: () => fetch("/game.json"),
             hydrateFallbackElement: <Loading></Loading>
 

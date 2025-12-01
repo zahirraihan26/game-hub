@@ -14,7 +14,8 @@ const GameCard = () => {
       .then((res) => res.json())
       .then((data) => {
         const sortedGames = data.sort((a, b) => b.ratings - a.ratings);
-        setGames(sortedGames);
+         const limitedGames = sortedGames.slice(0, 12);
+        setGames(limitedGames);
       });
   }, []); 
 

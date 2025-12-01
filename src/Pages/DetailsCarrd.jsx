@@ -13,6 +13,7 @@ const DetailsCard = ({ detal = {} }) => {
     description = "No description available.",
     developer = "Unknown",
     downloadLink = "#",
+    languages = [],
   } = detal;
 
   return (
@@ -43,6 +44,9 @@ const DetailsCard = ({ detal = {} }) => {
 
           <p className="mt-4 text-base text-gray-700 dark:text-gray-200 leading-relaxed border-l-4 border-indigo-500 pl-4">
             {description}
+          </p>
+          <p className="mt-4 text-base  text-gray-700 dark:text-gray-200 leading-relaxed border-l-4 border-indigo-500 pl-4">
+            <strong className="underline">Supported Languages:</strong> {languages.length > 0 ? languages.join(", ") : "Not specified"} 
           </p>
         </div>
 
