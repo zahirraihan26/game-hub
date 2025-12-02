@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaGamepad, FaChessKnight, FaFistRaised, FaMapMarkedAlt, FaDragon } from "react-icons/fa";
 import { GiPistolGun, GiSoccerBall, GiBroadsword, GiCarWheel, GiTreasureMap, GiCrosshair } from "react-icons/gi";
+import { Link } from 'react-router';
 
 const categories = [
   { icon: <FaGamepad size={28} />, title: "Arcade" },
@@ -29,9 +30,9 @@ const Servises = () => {
           without interruptions from downloads, intrusive ads, or pop-ups. Just load up your 
           favorite games instantly in your web browser and enjoy!
         </p>
-        <button className="mt-4 text-blue-400 hover:underline">
+        <Link to="/gamehub" className="mt-4 text-blue-400 hover:underline">
           Learn more
-        </button>
+        </Link>
       </div>
 
       {/* Right grid category section */}
