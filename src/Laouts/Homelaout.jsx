@@ -4,6 +4,9 @@ import Footer from '../Componet/Footer';
 import { Outlet, useNavigation } from 'react-router';
 import GameCard from '../Componet/GameCard';
 import Loading from '../Pages/Loading';
+import Servises from '../Pages/Servises';
+import Downloadforfree from '../Pages/Downloadforfree';
+import BannerAds from '../Pages/BannerAds';
 
 
 
@@ -25,6 +28,12 @@ const Homelaout = () => {
                 <section>
                      
                     <GameCard></GameCard>
+                    
+                    <Downloadforfree></Downloadforfree>
+                    <BannerAds></BannerAds>
+                    
+                    <Servises></Servises>
+                    
                 </section>
                 <Footer  className="mt-5"></Footer>
             </section>

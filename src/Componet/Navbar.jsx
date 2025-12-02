@@ -23,7 +23,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-black text-white py-4 shadow-md fixed w-full z-50 top-0">
+    <nav className="bg-black text-white py-4 shadow-md sticky w-full z-50 top-0">
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6">
         {/* 🔹 Logo */}
         <Link to="/" className="flex items-center space-x-2">
