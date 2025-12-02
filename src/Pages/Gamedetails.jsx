@@ -26,9 +26,9 @@ const Gamedetails = () => {
           <header>
             <Navbar></Navbar>
           </header>
-          <main className='min-h-1/2 p-3 w-11/12 mx-auto'>
+          <main>
             <h2 className='font-bold text-4xl mt-6'>Game Details</h2>
-            <div className='fonr-bold text-3xl mt-8'> 
+            <div > 
               <DetailsCarrd detal={detal} ></DetailsCarrd>
             </div>
           </main>

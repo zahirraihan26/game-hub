@@ -150,7 +150,7 @@ const Gamehub = () => {
                     transition={{ duration: 0.6, ease: "easeOut" }}
                     viewport={{ once: true }}
                 >
-                    <h3 className="text-3xl font-bold mb-3">Ubisoft Connect PC</h3>
+                    <h3 className="text-3xl font-bold mb-3">Gamehub Connect PC</h3>
                     <p className="leading-relaxed text-gray-300 mb-4">
                         A central hub for all your Ubisoft titles with social & community features.
                     </p>

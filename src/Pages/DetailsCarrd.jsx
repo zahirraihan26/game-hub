@@ -1,71 +1,132 @@
-
-
-
-
 import React from "react";
 
 const DetailsCard = ({ detal = {} }) => {
   const {
-    coverPhoto = " ",
-    title = " ",
+    coverPhoto = "",
+    title = "Unknown",
     category = "Unknown",
     ratings = 0,
     description = "No description available.",
     developer = "Unknown",
     downloadLink = "#",
     languages = [],
+    platforms = [],
+    releaseDate = "Unknown",
+    price = "Free",
+    genres = [],
+    systemRequirements = {},
+    screenshots = [],
+    trailerLink = "#",
+    multiplayerModes = [],
+    achievements = [],
+    website = "#",
+    ageRating = "N/A",
   } = detal;
 
   return (
-    <div className="max-w-5xl mx-auto bg-gradient-to-br from-indigo-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 rounded-3xl shadow-xl overflow-hidden p-8 md:p-10 grid grid-cols-1 md:grid-cols-3 gap-8 transition duration-300 ease-in-out hover:shadow-2xl">
-      {/* Left: Game Cover */}
-      <div className="md:col-span-1 relative">
-        <img
-          src={coverPhoto}
-          alt={`${title} cover`}
-          className="w-full h-64 md:h-full object-cover rounded-2xl shadow-md hover:scale-105 transform transition duration-300"
-        />
-        <div className="absolute bottom-3 left-3 bg-black/60 backdrop-blur text-white text-xs px-3 py-1 rounded-full uppercase tracking-wide">
-          {category}
+    <div className="mx-auto p-6 bg-gray-900 text-white rounded-xl shadow-lg">
+      {/* Cover and Title */}
+      <div className="flex flex-col md:flex-row gap-6">
+        <img src={coverPhoto} alt={title} className="w-full md:w-1/3 rounded-lg object-cover" />
+        <div className="flex-1">
+          <h1 className="text-3xl font-bold mb-2">{title}</h1>
+          <p className="text-sm text-gray-400 mb-2">{category}</p>
+          <p className="mb-2">Rating: {ratings} ⭐</p>
+          <p className="mb-2">Developer: {developer}</p>
+          <p className="mb-2">Release Date: {releaseDate}</p>
+          <p className="mb-2">Price: {price}</p>
+          <p className="mb-2">Age Rating: {ageRating}</p>
+          <p className="mb-4">{description}</p>
+
+          <div className="flex flex-wrap gap-2 mb-4">
+            {languages.map((lang) => (
+              <span key={lang} className="bg-gray-700 px-2 py-1 rounded">
+                {lang}
+              </span>
+            ))}
+            {platforms.map((plat) => (
+              <span key={plat} className="bg-gray-700 px-2 py-1 rounded">
+                {plat}
+              </span>
+            ))}
+          </div>
+
+          <div className="flex gap-4">
+            <a
+              href={downloadLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-blue-600 px-4 py-2 rounded hover:bg-blue-700"
+            >
+              Download
+            </a>
+            <a
+              href={website}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-green-600 px-4 py-2 rounded hover:bg-green-700"
+            >
+              Website
+            </a>
+            {trailerLink && (
+              <a
+                href={trailerLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-red-600 px-4 py-2 rounded hover:bg-red-700"
+              >
+                Watch Trailer
+              </a>
+            )}
+          </div>
         </div>
       </div>
 
-      {/* Right: Details Section */}
-      <div className="md:col-span-2 flex flex-col justify-between">
-        <div>
-          <h2 className="text-3xl md:text-4xl font-extrabold text-gray-800 dark:text-white drop-shadow-sm">{title}</h2>
+      {/* Screenshots */}
+      {screenshots.length > 0 && (
+        <div className="mt-6">
+          <h2 className="text-2xl font-semibold mb-2">Screenshots</h2>
+          <div className="flex overflow-x-auto gap-4">
+            {screenshots.map((shot, index) => (
+              <img
+                key={index}
+                src={shot}
+                alt={`${title} screenshot ${index + 1}`}
+                className="w-64 rounded-lg object-cover"
+              />
+            ))}
+     
+         </div>
+        </div>
+      )}
 
-          <div className="mt-2 flex items-center gap-2 text-yellow-500 font-semibold">
-            <span className="text-lg">{ratings}</span>
-            <span className="text-base">⭐</span>
+      {/* Other Info */}
+      <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+        {genres.length > 0 && (
+          <div>
+            <h3 className="font-semibold">Genres</h3>
+            <p>{genres.join(", ")}</p>
           </div>
-
-          <h2 className="mt-2 text-sm text-gray-600 dark:text-gray-300 italic">Developed by {developer}</h2>
-
-          <p className="mt-4 text-base text-gray-700 dark:text-gray-200 leading-relaxed border-l-4 border-indigo-500 pl-4">
-            {description}
-          </p>
-          <p className="mt-4 text-base  text-gray-700 dark:text-gray-200 leading-relaxed border-l-4 border-indigo-500 pl-4">
-            <strong className="underline">Supported Languages:</strong> {languages.length > 0 ? languages.join(", ") : "Not specified"} 
-          </p>
-        </div>
-
-        {/* Bottom Buttons */}
-        <div className="mt-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-          <a href={downloadLink} target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
-            <button className="w-full sm:w-auto px-6 py-3 rounded-xl bg-indigo-600 text-white font-semibold text-sm shadow-md hover:bg-indigo-700 hover:scale-105 transform transition duration-300">
-              Download Now
-            </button>
-          </a>
-
-          <button className="px-5 py-3 rounded-xl border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-200 font-medium text-sm hover:bg-gray-100 dark:hover:bg-gray-700 transition">
-            Add to Wishlist
-          </button>
-        </div>
-
-        <div className="mt-4 text-xs text-gray-500 dark:text-gray-400 text-right">
-          Updated on <time dateTime={new Date().toISOString()}>{new Date().toLocaleDateString()}</time>
-        </div>
+        )}
+        {multiplayerModes.length > 0 && (
+          <div>
+            <h3 className="font-semibold">Multiplayer Modes</h3>
+            <p>{multiplayerModes.join(", ")}</p>
+          </div>
+        )}
+        {achievements.length > 0 && (
+          <div>
+            <h3 className="font-semibold">Achievements</h3>
+            <p>{achievements.join(", ")}</p>
+          </div>
+        )}
+        {systemRequirements.minimum && (
+          <div>
+            <h3 className="font-semibold">System Requirements</h3>
+            <p>Minimum: {systemRequirements.minimum}</p>
+            {systemRequirements.recommended && <p>Recommended: {systemRequirements.recommended}</p>}
+          </div>
+        )}
       </div>
     </div>
   );
