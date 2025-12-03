@@ -11,7 +11,7 @@ const News = () => {
   }, []);
 
   return (
-    <section className="bg-[#121212] text-white px-6 py-10 mt-10 md:px-16">
+    <section className="bg-[#121212] text-white px-6 py-10  md:px-16">
       <h2 className="text-4xl font-bold text-pink-500 text-center mb-10">
         📰 News
       </h2>

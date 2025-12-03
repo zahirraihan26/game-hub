@@ -5,7 +5,7 @@ import Footer from "./Footer";
 const Developers = () => {
   return (
    <div>
-    <header className="mb-10">
+    <header className="">
       <Navbar></Navbar> 
       </header>
       <main>

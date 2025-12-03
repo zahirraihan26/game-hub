@@ -27,7 +27,7 @@ const Gamedetails = () => {
             <Navbar></Navbar>
           </header>
           <main>
-            <h2 className='font-bold text-4xl mt-6'>Game Details</h2>
+            
             <div > 
               <DetailsCarrd detal={detal} ></DetailsCarrd>
             </div>

@@ -185,7 +185,7 @@ const Gamehub = () => {
                     whileHover={{ scale: 1.05 }}
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
-                    transition={{ duration: 1 }}
+                    transition={{ duration: 4 }}
                     viewport={{ once: true }}
                 >
                     <img src={img4} alt="game list" className="w-full h-full object-cover object-center" />
