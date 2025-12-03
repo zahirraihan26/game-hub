@@ -6,7 +6,7 @@
 
 ## 🌐 Live Demo
 
-🔗 **Live URL:** [https://gamehub-10666.web.app](https://game-hub-10666.web.app/)
+🔗 **Live URL:** [https://enchanting-shortbread-d62d1c.netlify.app/](https://enchanting-shortbread-d62d1c.netlify.app/)
 
 ---
 
