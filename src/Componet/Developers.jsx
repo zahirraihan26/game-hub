@@ -19,29 +19,29 @@ const Developers = () => {
       <div className="grid md:grid-cols-3 gap-6">
         <div className="bg-[#1a1a1a] p-6 rounded-2xl shadow-md hover:scale-105 duration-300">
           <img
-            src="https://alex-carter.co.uk/wp-content/uploads/2020/10/Profile-Pic-e1673905603272.png"
+            src="https://i.ibb.co.com/fzBXnDM6/612467302-122098275855204152-450226571964542052-n.jpg"
             alt="Dev 1"
             className="w-24 h-24 rounded-full mx-auto mb-4"
           />
-          <h2 className="text-xl font-semibold text-center">Alex Carter</h2>
+          <h2 className="text-xl font-semibold text-center">Raikb Hassan </h2>
           <p className="text-gray-400 text-center">Lead Game Designer</p>
         </div>
         <div className="bg-[#1a1a1a] p-6 rounded-2xl shadow-md hover:scale-105 duration-300">
           <img
-            src="https://img.freepik.com/free-vector/woman-with-braided-hair-illustration_1308-174675.jpg?semt=ais_hybrid&w=740&q=80"
+            src="https://i.ibb.co.com/wh0HWzDg/499928082-707433948343599-8738779232707403970-n.jpg"
             alt="Dev 2"
             className="w-24 h-24 rounded-full mx-auto mb-4"
           />
-          <h2 className="text-xl font-semibold text-center">Maya Kim</h2>
+          <h2 className="text-xl font-semibold text-center">Abdullahal Shafi</h2>
           <p className="text-gray-400 text-center">Frontend Developer</p>
         </div>
         <div className="bg-[#1a1a1a] p-6 rounded-2xl shadow-md hover:scale-105 duration-300">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0CyOY3q6NHfFuMQVCtNQ0cKYounLNx_BxuA&s"
+            src="https://i.ibb.co.com/gZbgnkTq/604776255-1188980826700151-5105081073829710808-n.jpg"
             alt="Dev 3"
             className="w-24 h-24 rounded-full mx-auto mb-4"
           />
-          <h2 className="text-xl font-semibold text-center">Ryan Lee</h2>
+          <h2 className="text-xl font-semibold text-center">Sadman Farazi</h2>
           <p className="text-gray-400 text-center">Backend Engineer</p>
         </div>
       </div>
