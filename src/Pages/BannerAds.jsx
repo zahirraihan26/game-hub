@@ -11,20 +11,20 @@ const BannerAds = () => {
     dots: true,
     infinite: true,
     speed: 600,
-    slidesToShowcât: 1,
+    slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2500,
+    autoplaySpeed: 3000,
     pauseOnHover: true,
-    arrows: true,            
+    arrows: false,            
     cssEase: "ease-in-out",
     appendDots: (dots) => (
-      <div>
-        <ul className="slick-dots-custom"> {dots} </ul>
+      <div style={{ bottom: "20px" }}>
+        <ul className="m-0 p-0 flex justify-center gap-2"> {dots} </ul>
       </div>
     ),
     customPaging: () => (
-      <div className="w-2 h-2 bg-white/50 rounded-full hover:bg-white transition"></div>
+      <div className="w-2 h-2 bg-white/30 rounded-full hover:bg-white hover:scale-150 transition-all duration-300"></div>
     ),
   };
 
@@ -35,25 +35,30 @@ const BannerAds = () => {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto mt-14 mb-10 px-4">
-      <h2 className="text-2xl font-bold text-white mb-6">
-        Sponsored • Promotions
-      </h2>
+    <div className="max-w-7xl mx-auto mt-14 mb-24 px-6 relative">
+      <div className="absolute top-1/2 right-0 w-64 h-64 bg-secondary/10 blur-[80px] rounded-full -z-10 -translate-y-1/2"></div>
+      
+      <div className="flex items-center gap-4 mb-8">
+        <h2 className="text-2xl font-bold text-white tracking-widest uppercase">
+          Sponsored <span className="text-primary">•</span> Promotions
+        </h2>
+        <div className="h-px flex-1 bg-gradient-to-r from-white/10 to-transparent"></div>
+      </div>
 
       {/* Slider */}
-      <div className="relative rounded-xl overflow-hidden shadow-2xl">
+      <div className="relative rounded-[2rem] overflow-hidden shadow-2xl border border-white/5 group">
         <Slider {...settings}>
           {banners.map((banner, index) => (
-            <div key={index} className="relative">
-              <a href="/" className="block">
+            <div key={index} className="relative outline-none">
+              <a href="/" className="block relative focus:outline-none">
                 <img
                   src={banner.img}
                   alt={`Ad banner ${index + 1}`}
-                  className="w-full h-64 md:h-80 lg:h-96 object-cover rounded-xl 
-                             opacity-90 hover:opacity-100 transition duration-500"
+                  className="w-full h-64 md:h-80 lg:h-96 object-cover rounded-[2rem] opacity-80 transition-transform duration-700 hover:scale-105"
                 />
-                <div className="absolute bottom-3 left-3 bg-black/70 text-white 
-                                px-4 py-1.5 rounded-md text-sm font-medium backdrop-blur-sm">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+                
+                <div className="absolute top-4 right-4 glass px-4 py-1.5 rounded-full text-xs font-bold tracking-widest text-white backdrop-blur-md border border-white/10 uppercase">
                   {banner.label}
                 </div>
               </a>
@@ -61,8 +66,6 @@ const BannerAds = () => {
           ))}
         </Slider>
       </div>
-
-      
     </div>
   );
 };

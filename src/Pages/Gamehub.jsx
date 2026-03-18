@@ -13,11 +13,13 @@ const fadeUp = {
 const Gamehub = () => {
     return (
         <motion.div
-            className="bg-gray-950 text-white font-sans min-h-screen py-10  px-4 md:px-8"
+            className="relative text-white font-sans min-h-screen py-10 px-4 md:px-8 overflow-hidden bg-[#0b0b13]"
             initial="hidden"
             animate="visible"
             transition={{ staggerChildren: 0.2 }}
         >
+            <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-primary/10 blur-[150px] rounded-full -z-10 pointer-events-none"></div>
+            <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-secondary/10 blur-[150px] rounded-full -z-10 pointer-events-none"></div>
 
             {/* MAIN HEADER */}
             <motion.div className="text-center md:pt-16 mb-16" variants={fadeUp}>

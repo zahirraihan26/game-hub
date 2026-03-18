@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '../Componet/Navbar';
-import Footer from '../Componet/Footer';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import Gamehub from './Gamehub';
 
 const Gamehubadd = () => {

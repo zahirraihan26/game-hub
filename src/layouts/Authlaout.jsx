@@ -1,8 +1,8 @@
 
 import React from 'react';
-import Navbar from '../Componet/Navbar';
+import Navbar from '../components/Navbar';
 import { Outlet, useNavigation } from 'react-router';
-import Footer from '../Componet/Footer';
+import Footer from '../components/Footer';
 import Loading from '../Pages/Loading';
 
 

@@ -1,19 +1,19 @@
 import { createBrowserRouter } from "react-router";
-import Homelaout from "../Laouts/Homelaout";
+import Homelaout from "../layouts/Homelaout";
 import Home from "../Pages/Home";
 import Games from "../Pages/Games";
 
 
-import Errorpage from "../Componet/Errorpage";
+import Errorpage from "../components/Errorpage";
 import Login from "../Pages/Login";
-import Authlaout from "../Laouts/Authlaout";
+import Authlaout from "../layouts/Authlaout";
 import Register from "../Pages/Register";
 import Myprofile from "../Pages/Myprofile";
 import Gamedetails from "../Pages/Gamedetails";
-import Privetrout from "../Provider/Privetrout";
+import Privetrout from "../providers/Privetrout";
 
-import NewsLeter from "../Componet/NewsLeter";
-import Developers from "../Componet/Developers";
+import NewsLeter from "../components/NewsLeter";
+import Developers from "../components/Developers";
 import ForgetPassword from "../Pages/ForgetPassword";
 import Myprofilelogin from "../Pages/Myprofilelogin";
 import Loading from "../Pages/Loading";

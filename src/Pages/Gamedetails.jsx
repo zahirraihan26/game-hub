@@ -1,7 +1,7 @@
 
 
-import Navbar from '../Componet/Navbar';
-import Footer from '../Componet/Footer';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import DetailsCarrd from './DetailsCarrd';
 import { useLoaderData, useParams } from 'react-router';
 import { useEffect, useState } from 'react';
