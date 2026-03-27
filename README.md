@@ -1,6 +1,6 @@
-# 🎮 GameHub - A Game Library
+# 🎮 PlayVerse - A Game Library
 
-**GameHub** is an engaging online platform where users can discover, explore, and support indie game developers. It allows users to browse through different games, view detailed information, and install their favorite ones.
+**PlayVerse** is an engaging online platform where users can discover, explore, and support indie game developers. It allows users to browse through different games, view detailed information, and install their favorite ones.
 
 ---
 
@@ -12,7 +12,7 @@
 
 ## 🧩 Project Purpose
 
-The purpose of **GameHub** is to create a community-driven game library that supports independent developers and help
+The purpose of **PlayVerse** is to create a community-driven game library that supports independent developers and help
  gamers explore new and creative titles in a visually appealing and interactive way.
 
 ---

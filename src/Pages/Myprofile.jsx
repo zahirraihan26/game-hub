@@ -52,7 +52,7 @@ const Myprofile = () => {
                                     <span>📧</span> {user?.email || "No email provided"}
                                 </p>
                                 <div className="flex justify-center flex-wrap gap-2 pt-4">
-                                    <span className="glass px-3 py-1.5 rounded-full text-xs font-bold text-primary border border-primary/20 tracking-wider">GAMEHUB MEMBER</span>
+                                    <span className="glass px-3 py-1.5 rounded-full text-xs font-bold text-primary border border-primary/20 tracking-wider">PLAYVERSE MEMBER</span>
                                     <span className="glass px-3 py-1.5 rounded-full text-xs font-bold text-secondary border border-secondary/20 tracking-wider">VERIFIED</span>
                                 </div>
                             </div>

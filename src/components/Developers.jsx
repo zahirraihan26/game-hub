@@ -21,7 +21,7 @@ const Developers = () => {
           </h1>
           <div className="w-20 h-1 bg-gradient-to-r from-primary to-secondary rounded-full"></div>
           <p className="text-white/60 text-lg leading-relaxed pt-4">
-            GameHub is powered by a passionate team of indie game creators and developers
+            PlayVerse is powered by a passionate team of indie game creators and developers
             from around the world. Discover who's behind your favorite platform!
           </p>
         </div>

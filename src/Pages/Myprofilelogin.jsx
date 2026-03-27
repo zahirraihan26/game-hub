@@ -41,7 +41,7 @@ const Myprofilelogin = () => {
 
         <div className="flex flex-col items-center mb-8 animate-slide-up">
           <h1 className="text-4xl font-black text-gradient-primary mb-2">Edit Profile</h1>
-          <p className="text-white/60">Update your GameHub identity</p>
+          <p className="text-white/60">Update your PlayVerse identity</p>
         </div>
 
         <div className="glass-dark w-full max-w-md rounded-[2rem] p-8 md:p-10 shadow-2xl border border-white/10 relative z-10 animate-slide-up hover:border-white/20 transition-all duration-300">

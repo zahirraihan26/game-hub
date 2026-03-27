@@ -32,7 +32,7 @@ const Home = () => {
                         <img src={banner1} alt="Slide 1" className='w-full h-[600px] object-cover transition-transform duration-1000 group-hover:scale-105' />
                         <div className='absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent flex items-center'>
                             <div className='max-w-2xl ml-20 glass p-10 rounded-3xl border border-white/10 animate-float'>
-                                <h1 className='text-6xl font-black bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent mb-4'>Welcome to GameHub</h1>
+                                <h1 className='text-6xl font-black bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent mb-4'>Welcome to PlayVerse</h1>
                                 <p className='text-xl text-white/80 leading-relaxed mb-8'>Discover amazing indie games crafted by passionate creators worldwide. Your portal to extraordinary digital journeys starts here.</p>
                                 <Link to="/games">
                                     <button className="btn-premium text-lg px-10 py-4"> Browse Games </button>
@@ -106,7 +106,7 @@ const Home = () => {
                     <div className="absolute top-0 right-0 w-96 h-96 bg-primary/20 blur-[100px] -z-10 rounded-full"></div>
                     <div className="space-y-6">
                         <h2 className="text-4xl font-black">Ready to start your adventure?</h2>
-                        <p className="text-white/60 max-w-md">Join GameHub today and get early access to upcoming indie titles, exclusive rewards, and our growing community.</p>
+                        <p className="text-white/60 max-w-md">Join PlayVerse today and get early access to upcoming indie titles, exclusive rewards, and our growing community.</p>
                         <div className="flex gap-4">
                             <Link to="/auth/register" className="btn-premium py-4 px-8">Create Account</Link>
                             <Link to="/newsletter" className="glass px-8 py-4 rounded-xl font-bold hover:bg-white/10 transition-all border border-white/10">Learn More</Link>

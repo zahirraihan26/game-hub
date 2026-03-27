@@ -28,17 +28,17 @@ const Services = () => {
             Play Instantly
           </div>
           <h2 className="text-4xl md:text-5xl font-black text-gradient-primary tracking-tight">
-            ONLINE GAMES AT GAMEHUB
+            ONLINE GAMES AT PLAYVERSE
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary to-secondary rounded-full"></div>
           <p className="text-white/70 leading-relaxed text-lg">
-            GameHub features the latest and best free online games. You can enjoy playing fun games 
+            PlayVerse features the latest and best free online games. You can enjoy playing fun games 
             without interruptions from downloads, intrusive ads, or pop-ups. Just load up your 
             favorite games instantly in your web browser and enjoy!
           </p>
           <div className="pt-4">
-            <Link to="/gamehub" className="btn-premium inline-block px-8 py-3">
-              Explore GameHub+
+            <Link to="/playverse" className="btn-premium inline-block px-8 py-3">
+              Explore PlayVerse+
             </Link>
           </div>
         </div>

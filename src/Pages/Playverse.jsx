@@ -10,7 +10,7 @@ const fadeUp = {
     visible: { opacity: 1, y: 0 }
 };
 
-const Gamehub = () => {
+const Playverse = () => {
     return (
         <motion.div
             className="relative text-white font-sans min-h-screen py-10 px-4 md:px-8 overflow-hidden bg-[#0b0b13]"
@@ -29,7 +29,7 @@ const Gamehub = () => {
                     animate={{ letterSpacing: "2px", opacity: 1 }}
                     transition={{ duration: 1 }}
                 >
-                    GAMEHUB<br />CONNECT
+                    PLAYVERSE<br />CONNECT
                 </motion.h1>
 
                 <motion.h2
@@ -152,7 +152,7 @@ const Gamehub = () => {
                     transition={{ duration: 0.6, ease: "easeOut" }}
                     viewport={{ once: true }}
                 >
-                    <h3 className="text-3xl font-bold mb-3">Gamehub Connect PC</h3>
+                    <h3 className="text-3xl font-bold mb-3">Playverse Connect PC</h3>
                     <p className="leading-relaxed text-gray-300 mb-4">
                         A central hub for all your Ubisoft titles with social & community features.
                     </p>
@@ -177,7 +177,7 @@ const Gamehub = () => {
                         All your games, friends, and benefits in one place.
                     </h2>
                     <p className="text-gray-400 leading-relaxed">
-                        View your full game library, track stats, and earn exclusive rewards with Gamehub Connect.
+                        View your full game library, track stats, and earn exclusive rewards with Playverse Connect.
                     </p>
                 </div>
 
@@ -198,5 +198,5 @@ const Gamehub = () => {
     );
 };
 
-export default Gamehub;
+export default Playverse;
 

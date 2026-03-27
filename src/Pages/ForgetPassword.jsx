@@ -42,7 +42,7 @@ const ForgetPassword = () => {
         <div className="flex flex-col items-center mb-8 animate-slide-up">
           <h1 className="text-4xl font-black text-gradient-primary mb-2">Reset Password</h1>
           <p className="text-white/60 text-center max-w-sm">
-            Enter the email address associated with your GameHub account 
+            Enter the email address associated with your PlayVerse account 
             to receive a password reset link.
           </p>
         </div>

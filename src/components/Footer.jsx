@@ -15,7 +15,7 @@ const Footer = () => {
           <Link to="/" className="flex items-center space-x-2 mb-6 group">
             <IoGameControllerOutline className="text-3xl text-primary transition-transform group-hover:rotate-12" />
             <h1 className="text-2xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-              GameHub
+              PlayVerse
             </h1>
           </Link>
           <p className="text-sm leading-relaxed mb-6">
@@ -28,7 +28,7 @@ const Footer = () => {
             <a href="https://twitter.com" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-xl glass flex items-center justify-center hover:text-primary hover:border-primary/50 transition-all">
               <FaTwitter className="text-xl" />
             </a>
-            <a href="mailto:contact@gamehub.com" className="w-10 h-10 rounded-xl glass flex items-center justify-center hover:text-primary hover:border-primary/50 transition-all">
+            <a href="mailto:contact@playverse.com" className="w-10 h-10 rounded-xl glass flex items-center justify-center hover:text-primary hover:border-primary/50 transition-all">
               <GoMail className="text-xl" />
             </a>
           </div>
@@ -39,7 +39,7 @@ const Footer = () => {
           <ul className="space-y-4 text-sm">
             <li><Link to="/games" className="hover:text-primary transition-colors">Browse Games</Link></li>
             <li><Link to="/newsletter" className="hover:text-primary transition-colors">Newsletter</Link></li>
-            <li><Link to="/gamehub" className="hover:text-primary transition-colors">Gamehub+</Link></li>
+            <li><Link to="/playverse" className="hover:text-primary transition-colors">Playverse+</Link></li>
             <li><Link to="/developers" className="hover:text-primary transition-colors">Developers</Link></li>
           </ul>
         </div>
@@ -65,7 +65,7 @@ const Footer = () => {
       </div>
 
       <div className="max-w-7xl mx-auto px-6 mt-16 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-xs">
-        <p>© {new Date().getFullYear()} GameHub Industries Ltd. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} PlayVerse Industries Ltd. All rights reserved.</p>
         <div className="flex space-x-6">
           <span>Reliable tech since 1992</span>
           <span className="text-accent/50 cursor-pointer hover:text-accent">System Status: Online</span>

@@ -29,7 +29,7 @@ const Navbar = () => {
         <Link to="/" className="flex items-center space-x-2 group">
           <IoGameControllerOutline className="text-3xl text-primary transition-transform group-hover:rotate-12" />
           <h1 className="text-2xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-            GameHub
+            PlayVerse
           </h1>
         </Link>
 
@@ -70,11 +70,11 @@ const Navbar = () => {
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all group-hover:w-full"></span>
           </Link>
           <Link
-            to="/gamehub"
+            to="/playverse"
             className="hover:text-primary transition-colors font-medium mb-4 md:mb-0 relative group"
             onClick={() => setIsOpen(false)}
           >
-            Gamehub+
+            Playverse+
             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all group-hover:w-full"></span>
           </Link>
           {

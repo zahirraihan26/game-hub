@@ -1,16 +1,16 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import Gamehub from './Gamehub';
+import Playverse from './Playverse';
 
-const Gamehubadd = () => {
+const Playverseadd = () => {
     return (
        <div>
             <header>
                 <Navbar></Navbar>
             </header>
             <main>
-                <Gamehub></Gamehub>
+                <Playverse></Playverse>
             </main>
             <footer>
                 <Footer></Footer>
@@ -20,4 +20,4 @@ const Gamehubadd = () => {
     );
 };
 
-export default Gamehubadd;
+export default Playverseadd;

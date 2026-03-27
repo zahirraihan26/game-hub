@@ -18,8 +18,8 @@ import ForgetPassword from "../Pages/ForgetPassword";
 import Myprofilelogin from "../Pages/Myprofilelogin";
 import Loading from "../Pages/Loading";
 import AllGames from "../Pages/AllGames";
-import Gamehub from "../Pages/Gamehub";
-import Gamehubadd from "../Pages/Gamehubadd";
+import Playverse from "../Pages/Playverse";
+import Playverseadd from "../Pages/Playverseadd";
 
 
 
@@ -66,8 +66,8 @@ const router = createBrowserRouter(
 
         },
         {
-            path: '/gamehub',
-            element:<Gamehubadd></Gamehubadd>
+            path: '/playverse',
+            element:<Playverseadd></Playverseadd>
         },
 
         {
